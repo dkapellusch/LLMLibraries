@@ -14,19 +14,8 @@ The application should support:
 
 Choose the stack. Keep the code minimal and clean. The interface should feel
 deliberately designed rather than AI-generated: readable type, strong spacing,
-no tiny filler copy, and a quiet visual language inspired by Linear's
-clarity. Elegance is when nothing further can be removed.
+no tiny filler copy, and a quiet visual language. Remember, elegance is when nothing further can be removed.
 
 Produce the best working application you can in one attempt. Include tests,
 seed data, setup instructions, and a final review pass for correctness,
 cleanup, and visual polish.
-
-## Evaluation notes
-
-This repository preserves two one-shot submissions side by side:
-
-- `submissions/qwen-omp` — Qwen 3.8 27B / OMP, a dependency-free Node and
-  SQLite implementation with a 6,330-volume catalog and a full reservation
-  lifecycle.
-- `submissions/luna` — Luna Max reasoning, a React/Vite and Express
-  implementation with a 5,184-volume Open Library catalog.
