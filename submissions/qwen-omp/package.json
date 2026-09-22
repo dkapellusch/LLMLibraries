@@ -1,0 +1,12 @@
+{
+  "name": "aldbury",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Aldbury — a private library of rare books",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "test": "node --no-warnings test.js",
+    "fetch": "node --no-warnings fetch-seed.mjs"
+  }
+}
