@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f4f1e8">
+    <meta name="description" content="Sol Library — a private collection of rare and remarkable books.">
+    <title>Sol Library</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <a class="brand" href="#catalog" aria-label="Sol Library home">
+          <span class="brand-mark" aria-hidden="true"><i></i></span>
+          <span>Sol Library</span>
+        </a>
+        <nav aria-label="Primary">
+          <a href="#catalog" data-nav="catalog">Collection</a>
+          <a href="#locations" data-nav="locations">Houses</a>
+          <a href="#account" data-nav="account">My library</a>
+        </nav>
+        <div id="member-menu" class="member-menu"></div>
+      </header>
+
+      <main id="app" tabindex="-1">
+        <div class="page-loading" aria-live="polite">
+          <span class="loader"></span>
+          <p>Opening the catalogue…</p>
+        </div>
+      </main>
+    </div>
+
+    <div id="dialog-root"></div>
+    <div id="toast-root" class="toast-root" aria-live="polite"></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

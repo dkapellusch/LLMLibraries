@@ -1,0 +1,16 @@
+{
+  "name": "sol-library",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node --test --test-reporter=spec",
+    "check": "node --check server.js && node --check src/db.js && node --check public/app.js && npm test"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
