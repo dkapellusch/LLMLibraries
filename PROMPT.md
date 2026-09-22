@@ -1,4 +1,3 @@
-# One-shot prompt
 
 Build a polished private library application for a collection of rare books.
 
